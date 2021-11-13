@@ -1,0 +1,18 @@
+package com.company;
+
+import com.sun.xml.internal.bind.v2.runtime.output.SAXOutput;
+import java.util.Scanner;
+public class pembagian2bilangan{
+    public static void main(String[] args) {
+      Scanner  p = new Scanner(System.in);
+      System.out.println("program menghitung luas segitiga ");
+float luas;
+   int alas,tinggi;
+        System.out.print("masukkan alas = ");
+    alas = p.nextInt();
+        System.out.print("masukkan tinggi = ");
+        tinggi= p.nextInt();
+    luas =   ((float)alas *(float)tinggi)/2;
+        System.out.println("luas segitiga = "+luas);
+    }
+}
